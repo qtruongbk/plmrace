@@ -13,6 +13,7 @@ socket.on("res-data", function (data) {
 
         let Allvalue = []
         let allTarget = []
+        let timeUpdate = '30/06/2022'
 
         let rateMoney = 10000
         data.forEach(e => {
@@ -108,7 +109,7 @@ background-color: #fbeeed;
         <th>STT</th>
         <th>Tên</th>
         <th>Quang đường đã chạy(km)</th>
-        <th>Tổng thời gian chạy <br>(tính đến 29/06/2022)</th>
+        <th>Tổng thời gian chạy <br>(tính đến ${timeUpdate})</th>
         <th>Pace trung bình</th>
         <th>Mục tiêu(km)</th>
         <th>Chênh lệch (km)</th>

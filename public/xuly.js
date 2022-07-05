@@ -13,7 +13,7 @@ socket.on("res-data", function (data) {
 
         let Allvalue = []
         let allTarget = []
-        let timeUpdate = '30/06/2022'
+        let timeUpdate = '05/07/2022'
 
         let rateMoney = 10000
         data.forEach(e => {
